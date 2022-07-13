@@ -13,4 +13,8 @@ public class Welcome {
 		return "Welcome !!!";
 	}
 
+	@GetMapping(path = "/helloTester",produces = "application/json")
+	public String helloTester() {
+		return "Welcome !!!";
+	}
 }
