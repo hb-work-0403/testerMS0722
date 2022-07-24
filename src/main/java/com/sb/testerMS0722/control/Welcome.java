@@ -15,6 +15,6 @@ public class Welcome {
 
 	@GetMapping(path = "/helloTester",produces = "application/json")
 	public String helloTester() {
-		return "Welcome !!!";
+		return "Welcome Tester!!!";
 	}
 }
