@@ -18,7 +18,7 @@ public class EmployeeControl {
 	@Autowired
 	EmployeeService employeeService;
 	
-	/*
+	
     @GetMapping(path = "/getById",produces = "application/json")
 	public EmployeeE getById(@RequestParam int id) {
 		return employeeService.getEmployee(id);
@@ -28,5 +28,4 @@ public class EmployeeControl {
 	public List<EmployeeE> getAll() {
 		return employeeService.getEmployeeAll();
 	}
-  	*/   
 }

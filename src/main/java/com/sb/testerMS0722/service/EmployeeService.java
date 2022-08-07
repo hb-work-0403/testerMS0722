@@ -11,7 +11,7 @@ import com.sb.testerMS0722.db.repo.EmployeeRepo;
 @Service
 public class EmployeeService {
 
-	/*
+	
 	@Autowired
 	EmployeeRepo employeeRepo;
 	
@@ -22,5 +22,4 @@ public class EmployeeService {
 	public List<EmployeeE> getEmployeeAll() {
 		return employeeRepo.findAll();
 	}
-	 */
 }

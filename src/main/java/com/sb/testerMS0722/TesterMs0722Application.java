@@ -8,11 +8,13 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerA
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 
 @SpringBootApplication
+/*
 @EnableAutoConfiguration(exclude = {
 	DataSourceAutoConfiguration.class,
 	DataSourceTransactionManagerAutoConfiguration.class,
 	HibernateJpaAutoConfiguration.class})
-public class TesterMs0722Application {
+ */
+	public class TesterMs0722Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TesterMs0722Application.class, args);
